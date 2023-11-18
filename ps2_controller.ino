@@ -35,10 +35,10 @@ typedef const byte* PGM_BYTES_P;
 #define PSTR_TO_F(s) reinterpret_cast<const __FlashStringHelper *> (s)
 
 // These can be changed freely when using the bitbanged protocol
-const byte PIN_PS2_ATT = 53;  //purple
-const byte PIN_PS2_CMD = 52;  //blue
-const byte PIN_PS2_DAT = 51;  //green
-const byte PIN_PS2_CLK = 50;  //yellow
+const byte PIN_PS2_ATT = A15;  //purple
+const byte PIN_PS2_CMD = A14;  //blue
+const byte PIN_PS2_DAT = A13;  //green
+const byte PIN_PS2_CLK = A12;  //yellow
 
 const byte PIN_BUTTONPRESS = A0;
 const byte PIN_HAVECONTROLLER = A1;
